@@ -120,7 +120,7 @@ ScrollView:
                 text: "ќбласть чисел"
             Spinner:
                 text: "до 100"
-                values: ("до 10","до 100","до 1000","до 10000")
+                values: ("до 10","до 100 ","до 1000","до 10000")
                 on_text: app.mediator2.main_parameters.update({'area_num': self.text[3:]})
         BoxLayout:
             size_hint_y: 0.3
